@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Schema_RolandFurieux</title>
+        <author xml:id="EL">Elina Leblanc</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Université de Genève</authority>
+        <availability status="restricted">
+          <licence n="CC-BY-NC"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="#EL" when="2022-01-27">Creation of the file</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>TEI Customization for the encoding of Roland Furieux</head>
+      <p>This customization was created in the context of the workshop "Humanités numériques et
+        éditions de textes littéraires et historiques" (Genève, 14-15/02/2022)</p>
+      
+      <div>
+        <schemaSpec ident="roland_furieux" xml:lang="en" prefix="tei_" docLang="fr" targetLang="en">
+          <moduleRef key="core"
+            include="addrLine address author bibl biblStruct date editor graphic head hi imprint item lb list listBibl measure monogr note p pb pubPlace publisher ref relatedItem resp respStmt rs said term title"/>
+          <moduleRef key="tei"/>
+          <moduleRef key="header"
+            include="abstract appInfo application authority availability biblFull cRefPattern calendar calendarDesc catDesc catRef category change classCode classDecl conversion correction correspAction correspContext correspDesc creation distributor edition editionStmt editorialDecl encodingDesc extent fileDesc funder geoDecl handNote hyphenation idno interpretation keywords langUsage language licence listChange listPrefixDef namespace normalization notesStmt prefixDef principal profileDesc projectDesc publicationStmt punctuation quotation refState refsDecl rendition revisionDesc samplingDecl schemaRef scriptNote segmentation seriesStmt sourceDesc sponsor stdVals styleDefDecl tagUsage tagsDecl taxonomy teiHeader textClass titleStmt unitDecl unitDef xenoData"/>
+          <moduleRef key="textstructure"
+            include="TEI back body byline div docAuthor docDate docEdition docImprint docTitle front imprimatur text titlePage titlePart"/>
+          <moduleRef key="figures" except="cell figDesc formula notatedMusic row table"/>
+          <moduleRef key="msdescription" except=""/>
+          <moduleRef key="namesdates"
+            except="addName affiliation age birth bloc climate death district education event faith floruit forename genName geo geogFeat langKnowledge langKnown listEvent listNym listObject listRelation location nameLink nationality nym object objectIdentifier objectName occupation offset personGrp persona population region relation residence roleName sex socecStatus state surname terrain trait"/>
+          <moduleRef key="transcr"
+            except="addSpan am damage damageSpan delSpan ex handNotes handShift line listTranspose metamark mod path redo restore retrace secl sourceDoc space subst substJoin supplied surfaceGrp surplus transpose undo zone"/>
+        </schemaSpec>
+      </div>
+    </body>
+  </text>
+</TEI>

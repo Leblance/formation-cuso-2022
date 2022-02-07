@@ -1,0 +1,28 @@
+
+<!ELEMENT library (book+) >
+
+<!ELEMENT book (title, author, origDate?, date, editor, abstract?, link?) >
+<!ATTLIST book
+    id ID #IMPLIED
+    type CDATA #IMPLIED
+    status (read | to-read) "read"
+    rating (excellent | good | ok | poor) "ok"
+>
+
+<!ELEMENT title (#PCDATA) >
+
+<!ELEMENT author (#PCDATA) >
+
+<!ELEMENT origDate (#PCDATA) >
+
+<!ELEMENT date (#PCDATA) >
+
+<!ELEMENT editor (#PCDATA) >
+
+<!ELEMENT abstract (p) >
+
+<!ELEMENT p (#PCDATA) >
+
+<!ELEMENT link (#PCDATA) >
+<!ATTLIST link
+    url CDATA #REQUIRED >

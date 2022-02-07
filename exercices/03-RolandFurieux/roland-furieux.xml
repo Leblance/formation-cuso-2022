@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Schema_RolandFurieux.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Roland Furieux</title>
+            <author>L'Arioste</author>
+            <respStmt xml:id="EL">
+               <persName>Elina Leblanc</persName>
+               <resp>Correction de la transcription automatique</resp>
+               <resp>Encodage TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>L'Arioste (1474-1533), "Roland Furieux, Poëme Héroïque, Premier tome",
+               traduction de M. le comte de Tressan <ref target="https://fontegaia.huma-num.fr/items/show/18"/></edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Université de Genève</authority>
+            <availability status="restricted">
+               <licence n="CC-BY-NC"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:lang="fr">
+               <monogr>
+                  <author>L'Arioste</author>
+                  <editor role="translator">Louis-Elisabeth de la Vergne de Tressan</editor>
+                  <title type="short_title">Roland Furieux</title>
+                  <title type="full_title">Roland Furieux, Poème héroïque, de l'Arioste. Nouvelle
+                     traduction, par M. le Comte de Tressan. Premier tome.</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Noël-Jacques Pissot (1724?-1804)</publisher>
+                     <date>1787</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Grenoble</settlement>
+                  <institution>Bibliothèque Universitaire de Grenoble (SID UGA INP)</institution>
+                  <repository>Fonte Gaia</repository>
+                  <collection>Collex d'Italien</collection>
+                  <idno type="cote">C3270</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim type="format">In-12</dim>
+                        </support>
+                        <collation>1 vol. ([2]-458 p.) - (sig. A-T 12 ; U)</collation>
+                        <condition>Les pages 13 à 16, ainsi que la dernière page de l'exemplaire,
+                           sont déchirées dans le coin supérieur</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <typeDesc>
+                     <typeNote xml:lang="fr">Caractères romains</typeNote>
+                  </typeDesc>
+                  <decoDesc>
+                     <p>Présence d'une illustration au début du premier chant, représentant deux
+                        pécheurs au bord d'une rivière et un paysan qui laboure son champs. Au
+                        second plan, on aperçoit la silhouette d'une ville fortifiée.</p>
+                  </decoDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>Basane recouvert d'un papier vert à écailles</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <additional>
+                  <listBibl>
+                     <bibl type="other_edition">Roland Furieux, Poëme héroïque de L'Arioste, traduit
+                        par M. le comte de Tressan. Tome premier. A Paris, chez Lebégue,
+                        Imprimeur-Libraire, 1822. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k62097672"/></bibl>
+                     <bibl type="other_edition">Roland Furieux, Poème héroïque de L'Arioste, traduit
+                        par M. le comte de Tressan. Tome premier. A Paris, chez Dauthereau,
+                        Libraire, 1828 <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5442286w"/></bibl>
+                     <bibl type="other_edition">Roland Furieux traduit de l'Arioste par le comte de
+                        Tressan. Nouvelle édition ornée de quatre-vingt dix magnifiques gravures.
+                        Tome Premier. Paris, Ruel Ainé, Éditeur-libraire, 1830. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5448692v"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <listPerson>
+               <person xml:id="agramant">
+                  <persName>Agramant (Agramante)</persName>
+                  <note>Chef de tous les Maures d’Afrique ; En guerre contre Charlemagne pour venger la mort de son père</note>
+               </person>
+               <person xml:id="charlemagne">
+                  <persName>Charlemagne (Carlo Magno)</persName>
+                  <note>Roi des Francs à partir de 768, puis des Lombards en 774. Est couronné empereur par le pape Léon III en l'an 800</note>
+               </person>
+               <person xml:id="trojan">
+                  <persName>Trojan (Troiano)</persName>
+                  <note>Père d’Agramant, tué par Roland à Aspremont</note>
+               </person>
+               <person xml:id="roland">
+                  <persName>Roland (Orlando)</persName>
+                  <note>Guerrier franc, chargé de la protection de la Marche de Bretagne, et selon la légende, neveu de Charlemagne. Amoureux d’Angélique</note>
+               </person>
+               <person xml:id="hippolyte">
+                  <persName>Cardinal Hippolyte Ier d’Este (Ippolito d’Este)</persName>
+                  <note>Protecteur de l’Arioste, qui lui dédie Roland Furieux</note>
+               </person>
+               <person xml:id="hercule">
+                  <persName>Hercule (Eracle)</persName>
+                  <note>Héros gréco-romain, fils de Zeus et d'Alcmène. Notamment célèbre pour ses 12 travaux</note>
+               </person>
+               <person xml:id="roger">
+                  <persName>Roger (Ruggero)</persName>
+                  <note>Fils du roi de Calabre. À la mort de celui-ci, il est caché en Libye, où il
+                     est élevé par le sorcier Atlante comme un guerrier sarrasin. Ancêtre supposé de
+                     la famille d'Este, protectrice de l'Arioste</note>
+               </person>
+            </listPerson>
+            <listPlace>
+               <place xml:id="afrique">
+                  <placeName>Afrique</placeName>
+                  <note>Continent au Sud de la mer Méditerranée, bordé par l'Océan Atlantique à l'Ouest et par l'Océan Indien à l'Est</note>
+               </place>
+            </listPlace>
+            <listOrg>
+               <org xml:id="maures">
+                  <orgName>Les Maures</orgName>
+                  <note>Terme qui désigne les Musulmans au Moyen-Âge</note>
+               </org>
+               <org xml:id="romains">
+                  <orgName>Les Romains</orgName>
+                  <note>Désigne les habitants de l'ancien Empire Romain, dont Charlemagne se fait l'héritier en étant couronné empereur</note>
+               </org>
+            </listOrg>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <normalization>
+              <p>La graphie du texte n'a pas été normalisée.</p>
+           </normalization>
+           <hyphenation>
+              <p>Les césures des mots ont été respectées.</p>
+           </hyphenation>
+           <punctuation>
+              <p>L'usage des espaces avant la ponctuation a été modernisé. Par exemple "une raison ," dans l'imprimé d'origine
+                 devient "une raison," dans l'édition numérique.</p>
+           </punctuation>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="fr">Français</language>
+        </langUsage>
+        <textClass>
+           <keywords scheme="https://rameau.bnf.fr/">
+              <term target="http://ark.bnf.fr/ark:/12148/cb120705050">Littérature italienne -- 16e siècle</term>
+              <term target="http://ark.bnf.fr/ark:/12148/cb166037073">Roman de chevalerie</term>
+              <term target="http://ark.bnf.fr/ark:/12148/cb119336910">Traduction</term>
+              <term target="http://ark.bnf.fr/ark:/12148/cb11933167r">Épopées</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change who="#EL" when="2022-01-27">Création du fichier TEI P5 et encodage du corps du texte</change>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="livre">
+            <div type="tome" n="1">
+               <pb n="5"/>
+               
+               <head rend="center">
+                  <lb/>ROLAND
+                  <lb/>FURIEUX,
+                  <lb/>POËME
+                  <lb/>TRADUIT DE L’ARIOSTE.
+               </head>
+               
+               <div type="chant" n="1">
+                  <head type="center">CHANT PREMIER</head>
+                  <p>
+                     <lb/>Sexe enchanteur ! fiers paladins ! amours !
+                     <lb/>combats ! galanterie ! C’est vous que je
+                     <lb/>chante : que mes vers apprennent aussi
+                     <lb/>quelle fut l’entreprise audacieuse d’Agra-
+                     <lb/>mant, lorsqu’emporté par la fureur d'une
+                     <lb/>jeunesse bouillante, il sortit de l’Afrique
+                     <lb/>avec une armée innombrable de Maures,
+                     <lb/>&amp; traversa le détroit pour venger sur Char-
+                     <lb/>les, empereur des Romains, la mort de
+                     <lb/>son pere Trojan ; je dois dire en même
+                     
+                     <fw type="sig"><lb/>A3</fw>
+                     
+                     <pb n="6"/>
+                     
+                     <fw type="header"><lb/>Roland Furieux,</fw>
+                     
+                     <lb/>temps du célebre Roland ce que ni ta poésie
+                     <lb/>ni la prose ne nous avoient point encore
+                     <lb/>appris ; &amp; comment un héros aussi sage
+                     <lb/>fut emporté par un amour malheureux,
+                     <lb/>jusqu'à la folie la plus furieuse. Mais, hélas !
+                     <lb/>serai-je en état de tenir tout ce que je pro-
+                     <lb/>mets ; &amp; celle qui se fait un jeu de troubler
+                     <lb/>une raison, m'en laissera-t-elle assez pour
+                     <lb/>continuer mes chants ?
+                  </p>
+                  
+                  <p>
+                     <lb/>Race généreuse d'Hercule, ornement &amp;
+                     <lb/>splendeur de notre siecle , Hypolite ! puis-
+                     <lb/>sent mes vers vous être agréables ! Que pou-
+                     <lb/>voit vous offrir votre serviteur fidele, pour
+                     <lb/>prix de vos faveurs &amp; de vos bienfaits ?
+                     <lb/>Ma lyre est mon seul bien ; je ne peux les
+                     <lb/>reconnoître que par mes vers &amp; par mes
+                     <lb/>foibles écrits.
+                  </p>
+                  
+                  <p>
+                     <lb/>Du moins , Seigneur, parmi les plus
+                     <lb/>dignes héros que je m’apprête à chanter ,
+                     <lb/>vouss trouverez ce célèbre Roger, qui fut
+                     <lb/>la souche antique de votre illustre maison ;
+                     <lb/>&amp; je vous parlerai de la haute valeur &amp;
+                     <lb/>de ses actions évitantes , si tant d'objets
+                     <lb/>miles qui vous occupent sans cesse, vous
+                     <lb/>permettent de m’écouter.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,39 @@
+/* 
+ *Brown : #A52A2A
+ *Dark Blue : #00008B
+ *MediumVioletRed : #C71585
+ *PaleGreen : #98FB98
+ *RebaccaPurple : #663399
+*/
+
+library {
+    padding: 1.5em;
+}
+
+book {
+    font-family: Garamond, serif;
+    font-size: 12pt;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-bottom: 1px solid black;
+}
+
+title {
+    display: inline;
+    font-style: italic;
+}
+
+book[type="classic"] title {
+    color: #A52A2A; /* Brown */
+}
+
+author::before, author::after, origDate::after, date::after {
+    content: " - ";
+}
+
+abstract {
+    display: block;
+    font-size : 10pt;
+    margin-top: 0.5em;
+    text-align: justify;
+}

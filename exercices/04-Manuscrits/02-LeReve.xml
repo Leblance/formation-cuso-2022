@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Le Rêve</title>
+            <author>Émile Zola</author>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Transcription</resp>
+               <resp>Encodage TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Université de Genève</authority>
+            <availability status="restricted">
+               <licence n="CC-BY-NC"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc> <!-- Rédigé d'après les informations fournies par Gallica -->
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque nationale de France (BnF)</institution>
+                  <repository>Département des manuscrits</repository>
+                  <idno>NAF 10322</idno>
+                  <altIdentifier>
+                     <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k1037141</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Le Rêve</title>
+                     <author>Émile Zola</author>
+                     <docDate>
+                        <date>1888</date>
+                     </docDate>
+                     <note>Manuscrit et dossiers préparatoires</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dimensions unit="cm">
+                              <width>15,5</width>
+                              <height>20</height>
+                           </dimensions>
+                        </support>
+                        <foliation>421 f.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Français</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="https://rameau.bnf.fr/">
+               <term>Littérature -- 19e siècle</term>
+               <term>Naturalisme (mouvement littéraire)</term>
+               <term>Autographes</term>
+               <term>Manuscrits d'écrivains</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#EL" when="2022-01-28">Création du fichier TEI P5, encodage du teiHeader et du corps du texte</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+       <body>
+          <div type="manuscrit">
+             <pb n="1"/>
+             
+             <lb/><fw>n.a.f 10322</fw><fw type="pageNum">1</fw>
+             
+             <head rend="center"><lb/>LE REVE</head>
+             
+             <div type="chapitre" n="1">
+                <head rend="center"><lb/>I</head>
+                
+                <p>
+                   <lb/>Pendant le rude hiver de 1860, l'Oise
+                   <lb/>gela, de grandes neiges couvrirent de la
+                   <lb/>basse Picardie ; et il en vint [souffla] surtout une bour-
+                   <lb/>rasque du nord-est, qui ensevelit presque Beaumont,
+                   <lb/>le jour même de Noël. La neige qui s'était mise
+                   <lb/>à tomber dès le matin [l'aube] redoubla vers le soir, s'amassa
+                   <lb/>durant toute la nuit. Dans la ville haute, rue des
+                   <lb/>Orfèvres, au bout de laquelle se trouve comme en-
+                   <lb/>clavée la façade nord du transsept de la cathédrale,
+                   <lb/>elle s'engouffrait, poussée par le vent, et allait [venait] battre
+                   <lb/>l'antique [la vieille] porte romane, la porte Sainte-Agnès, très
+                   <lb/>ornée de sculptures sous la nudité du pignon.
+                   <lb/>Le lendemain, à l'aube, il y en eu là près
+                   <lb/>de trois pieds.
+                </p>
+                <p>
+                   <lb/>La rue dormait encore, emparessée par la
+                   <lb/>fête de la veille. Six heures sonnèrent. Ainsi [?] Dans
+                   <lb/>les ténébres, que bleuissait la [?] chute la tombée lente et en-
+                
+                <pb n="2"/>
+                   <lb/>5 janvier 1888
+                   
+                <pb n="3"/>
+                   
+                <fw type="pageNum" place="top-right"><lb/>2</fw>
+                   
+                   <lb/>têtée des flocons, seule une forme [?] indécise vivait. Une
+                   <lb/>fillette de neuf ans, qui, refugiée [dès le crépuscule]
+                   <lb/>sous les voussures de la porte, y avait la
+                   <lb/>nuit à grelotter, en s'abritant de son mieux. Elle
+                   <lb/>était vêtue d'un mince lainage en guenilles [loques], la tête
+                   <lb/>enveloppée d'un lambeau de foulard [tricot], les pieds nus dans
+                   <lb/>de gros souliers d'homme. Sans doute elle n'avait é-
+                   <lb/>choué là qu'après avoir longtemps battu la ville, car elle
+                   <lb/>y était tombée les membres rompus. Pour elle, c'é-
+                   <lb/>tait le [la] bout [fin] de la terre, plus personne ni plus rien,
+                   <lb/>l'abandon dernier, la faim qui ronge, le froid qui
+                   <lb/>glace [tue] ; et, dans sa faiblesse, [?] [raidie],
+                   <lb/>étouffée par le poids lourd de son coeur, [puis se]
+                   <lb/>[?], elle cessait de lutter, il ne lui restait
+                   <lb/>que le recul physique [instinctif,], l'instinct  [le mouvement machinal]
+                   <lb/>de changer de place, de s'enfoncer dans ces vielles pier-
+                   <lb/>res, lorsqu'une rafale faisait tourbillonner la
+                   <lb/>neige.
+                </p>
+                
+                <p>
+                   <lb/>Les heures, les heures coulaient [passaient]. Longtemps,
+                   <lb/>[elle était demeurée] entre le double vantail [les manteaux] des deux baies
+                   <lb/>jumelles, elle s'était adossée [addosée] au trumeau, dont le pilastre [?]
+                   <lb/>[?] porte une statue de sainte Agnès, la vierge
+                   <lb/>martyre de treize ans, une petite fille [enfant] [fillette] [avec la petite ?]
+                   <lb/>comme elle, avec la palme et un agneau à ses pieds.
+                </p>
+             </div>
+          </div>
+       </body>
+   </text>
+</TEI>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+<?xml-stylesheet type="text/css" href="library.css"?>
+<library>
+    <book id="b1" status="to-read" type="classic">
+        <title>Shirley</title>
+        <author>Charlotte Brontë</author>
+        <origDate>1849</origDate>
+        <date>2013</date>
+        <editor>ArchiPoche</editor>
+        <abstract>
+            <p>"1812. Du fait des guerres napoléoniennes, la province du Yorkshire subit la première
+                dépression industrielle de l'Histoire. Les temps sont durs, aussi bien pour les
+                patrons que pour les ouvriers qui, menacés par l'apparition des machines-outils,
+                fomentent une révolte. Robert Moore est l'un de ces industriels dont les filatures
+                tournent à vide. La timide Caroline, sa cousine, est éprise de lui. Mais Robert est
+                trop préoccupé par les émeutes et les ennuis financiers pour songer à un mariage si
+                peu lucratif. Il songe plutôt à Shirley Keeldar, une jeune héritière qui vient de
+                s'installer en ville. Vive et entreprenante, le "capitaine Keeldar" - comme elle se
+                laisse appeler - déborde d'idées pour investir son argent, souhaitant venir en aide
+                aussi bien à Robert qu'aux ouvriers les plus pauvres. Convaincue qu'un mariage se
+                prépare, Caroline en tombe malade de dépit. Elle ne comprend pas que son amie
+                repousse les beaux partis, traite ses domestiques en familiers et ait si peu
+                d'égards pour son ancien précepteur, le frère de Robert. Lequel envisage de fermer
+                son usine pour refaire sa vie au Canada. La balle d'un ouvrier révolté mettra fin à
+                ce projet..."</p>
+        </abstract>
+        <link url="https://www.babelio.com/livres/Bront-Shirley/115210"/>
+    </book>
+</library>
