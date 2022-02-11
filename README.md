@@ -10,3 +10,5 @@ Programme de la formation :
 - TEI & manuscrits : [Cours](https://github.com/Leblance/formation-cuso-2022/blob/main/pdf/04-tei_manuscrits.pdf) / [Exercices](https://github.com/Leblance/formation-cuso-2022/tree/main/exercices/04-Manuscrits)
 - TEI & facsimilés : [Cours](https://github.com/Leblance/formation-cuso-2022/blob/main/pdf/05-tei_facsimiles.pdf)
 - Introduction à TEI-Publisher : [Cours 1](https://github.com/Leblance/formation-cuso-2022/blob/main/pdf/06-intro_teiPublisher1.pdf) / [Cours 2](https://github.com/Leblance/formation-cuso-2022/blob/main/pdf/06-intro_teiPublisher2.pdf) / [Exercices](https://github.com/Leblance/formation-cuso-2022/tree/main/exercices/05-teiPublisher)
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
