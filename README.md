@@ -1,6 +1,6 @@
 # Formation "Humanités numériques et éditions de textes littéraires et historiques"
 
-Cours et excercices utilisés dans le cadre de deux formations CUSO (Conférence Universitaire de Suisse Occidentale) : la première dans le cadre du programme d'Études médiévales (14-15 février) et la seconde pour le programme d'Histoire contemporaine (17-18 février).
+Cours et excercices utilisés dans le cadre de deux formations CUSO (Conférence Universitaire de Suisse Occidentale), organisées à l'Université de Genève : la première dans le cadre du programme d'Études médiévales (14-15 février) et la seconde pour le programme d'Histoire contemporaine (17-18 février).
 
 Programme de la formation :
 
