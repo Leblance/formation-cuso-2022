@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Le livre des trois vertus</title>
+            <author>Christine de Pisan</author>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Transcription et encodage</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Université de Genève</authority>
+            <availability status="restricted">
+               <licence n="CC-BY-NC"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc> <!-- Rédigé d'après les informations fournies par Gallica -->
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque nationale de France (BnF)</institution>
+                  <repository>Département des manuscrits</repository>
+                  <idno>NAF 25636</idno>
+                  <altIdentifier>
+                     <idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b8531137t</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Le livre des trois vertus</title>
+                     <author>Christine de Pisan</author>
+                     <docDate>
+                        <date>1405-1406</date>
+                     </docDate>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dimensions unit="mm">
+                              <width>215</width>
+                              <height>305</height>
+                           </dimensions>
+                           <material>Parchemin</material>
+                        </support>
+                        <foliation>Foliotation moderne, à l'encre. 13 cahiers de 8 feuillets (ff. 1-104).</foliation>
+                        <condition>Nombreuses coutures, quelques trous et lisières, le feuillet 65 est taché. Trous de vers sur la garde supérieure</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="32">
+                           <p>2 colonnes de 32 lignes</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <p>Minuscule cursive calligraphique, encre brune. Corrections d'une autre main que le texte.</p>
+                  </handDesc>
+                  <decoDesc>
+                     <p>Une miniature au f. 2v, réalisée dans l'atelier du Maître de la Cité des dames.
+                        La décoration secondaire est l'oeuvre de l'ornemaniste à la vigne d'or.
+                        Grande lettrine au début de chaque livre (feuillets 2v, 55v et 78v), lettre champie au début de chaque chapitre, pieds-de mouche champis.
+                        Rubriques.</p>
+                  </decoDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>Reliure de veau brun estampé à froid (XVIe siècle).</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>Manuscrits copié peu après le manuscrit Boston, PL, fr. Med.10.</origin>
+                  <provenance>Ex-libris de Karl Otto von Gÿmnich (XVIIIe siècle) collé à la contregarde supérieure.</provenance>
+                  <provenance>Bibliothèque impériale de Russie (vente en 1932).</provenance>
+                  <acquisition>Acheté par la BnF en 1995.</acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <charDecl>
+           <char xml:id="tilde">
+              <charName>COMBINING TILDE</charName>
+              <mapping type="unicode">U+0303</mapping>
+           </char>
+           <char xml:id="SquirrelTail">
+              <charName>LATIN SMALL LETTER P WITH SQUIRREL TAIL</charName>
+              <mapping type="unicode">U+A755</mapping>
+           </char>
+        </charDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="frm">Moyen français (1400-1600)</language>
+        </langUsage>
+        <textClass>
+           <keywords scheme="https://rameau.bnf.fr/">
+              <term>Littérature didactique médiévale</term>
+              <term>Femmes écrivains</term>
+              <term>Quinzième siècle</term>
+              <term>Enluminure médiévale</term>
+              <term>Rubrication</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change who="#EL" when="2022-01-28">Création du fichier TEI P5, encodage du teiHeader et du corps du texte</change>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            
+            <pb n="1" facs="f505f1072d0bf8bd654e7e0e9c079e5017efead5ba944dab6345730cf0a3a582/"/>
+            
+            <p><lb/>Ci commence le <title>livre des iii vertus a lenseignement des da
+               <lb/>mes</title>. Le <choice><abbr><am>p</am><g ref="#SquirrelTail"/>mier</abbr><expan>p<ex>re</ex>mier</expan></choice> devise
+                  <choice><abbr>c<am>o</am><g ref="#tilde"/>ment</abbr><expan>co<ex>m</ex>ment</expan></choice> les vertus par lequel
+                  <choice><abbr>c<am>o</am><g ref="#tilde"/>mande</abbr><expan>co<ex>m</ex>mande</expan></choice>
+               <lb/>ment <choice><abbr><am>X</am>ine</abbr><expan><ex>Christ</ex>ine</expan></choice> fist et compila le livre de la cité des dames
+               <lb/>apparurent derechef a elle et lui commirent a faire 
+               <lb/>ceste present oeuvre. J.</p>
+            
+            <cb n="1"/>
+            
+            <p><lb/>Apres ce que
+               <lb/>ioz edifiee
+               <lb/>a l'ayde de
+               <lb/>dieu et par
+               <lb/>le comman
+               <lb/>dement des trois dames de
+               <lb/>vertu cestassavoir raison
+               <lb/>droiture et iustice, <title>La cite des
+            
+            <cb n="2"/>
+            
+               <lb/>dames</title> par la fourme et ma
+               <lb/>niere que ou contenu de la
+               <lb/>ditte cite est declairie ie com
+               <lb/>me personne travailliee de
+               <lb/>sy grant labour avoir <choice><abbr>ac<am>o</am><g ref="#tilde"/></abbr><expan>aco<ex>m</ex></expan></choice>
+               <lb/>pli et mis sus mes mem
+               <lb/>bres et mon corps lassez <choice><abbr>p<am>o</am><g ref="#tilde"/></abbr><expan>po<ex>ur</ex></expan></choice>
+               <lb/>cause du long et continuel</p>
+         </div> 
+      </body>
+  </text>
+</TEI>

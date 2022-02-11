@@ -1,0 +1,19 @@
+.green {
+    color: #00FF7F;
+}
+
+.red {
+    color: #FF0000;
+}
+
+.choice-alternate {
+    display: none;
+}
+
+.choice-alternate.toggle {
+    display: inline;
+}
+
+.choice.toggle {
+    display: none;
+}
